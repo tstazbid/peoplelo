@@ -1,0 +1,180 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Users Info</h1>
+    @* <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+</div>
+
+@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Users";
+}
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <div class="d-flex align-items-center" style="gap: 1rem;">
+
+            <div class="text-center" id="blockButton" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 3px; border-radius: 8px; cursor: pointer;">
+                <i class="bi bi-ban text-warning" title="Block" style="font-size: 1.5rem;"></i>
+                <span>Block</span>
+            </div>
+
+            <div class="text-center" id="unblockButton" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 3px; border-radius: 8px; cursor: pointer;">
+                <i class="bi bi-unlock text-success" title="Unblock" style="font-size: 1.5rem;"></i>
+                <span>Unblock</span>
+            </div>
+
+            <div class="text-center" id="deleteButton" style="box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); padding: 3px; border-radius: 8px; cursor: pointer;">
+                <i class="bi bi-trash3-fill text-danger" title="Delete" style="font-size: 1.5rem;"></i>
+                <span>Delete</span>
+            </div>
+
+        </div>
+
+        <div class="input-group" style="width: 300px; padding: 10px">
+            <input type="text" id="filterInput" class="form-control" placeholder="Search by name..." aria-label="Search">
+        </div>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="selectAll" /></th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Last Seen</th>
+                </tr>
+            </thead>
+            <tbody id="userTableBody">
+                @foreach (var user in Model)
+                {
+                    <tr class="@((user.Status == "Blocked") ? "text-muted" : "")">
+                        <td><input type="checkbox" class="select-user" data-user-id="@user.Id" /></td>
+                        <td>@(user.Status == "Blocked" ? @Html.Raw($"<s>{user.FullName}</s>") : user.FullName)</td>
+                        <td>@user.Email</td>
+                        <td>
+                            <span data-bs-toggle="tooltip" data-bs-title="@user.LastVisit">
+                                @{
+                                    var lastVisit = DateTime.Parse(user.LastVisit);
+                                    var timeSpan = DateTime.Now - lastVisit;
+                                    var timeDisplay = "Data not found!";
+                                    if (timeSpan.TotalMinutes < 1)
+                                    {
+                                        timeDisplay = "Less than a minute ago";
+                                    }
+                                    else if (timeSpan.TotalMinutes < 60)
+                                    {
+                                        timeDisplay = $"{(int)timeSpan.TotalMinutes} minutes ago";
+                                    }
+                                    else if (timeSpan.TotalHours < 24)
+                                    {
+                                        timeDisplay = $"{(int)timeSpan.TotalHours} hours ago";
+                                    }
+                                    else if (timeSpan.TotalDays < 7)
+                                    {
+                                        timeDisplay = $"{(int)timeSpan.TotalDays} days ago";
+                                    }
+                                    else
+                                    {
+                                        timeDisplay = $"{(int)(timeSpan.TotalDays / 7)} weeks ago";
+                                    }
+
+                                }
+                                @timeDisplay
+                            </span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+
+        // select/deselect All
+        document.getElementById('selectAll').addEventListener('change', function () {
+            const checkboxes = document.querySelectorAll('.select-user');
+            checkboxes.forEach(cb => cb.checked = this.checked);
+        });
+
+        // filter Users by Name
+        document.getElementById('filterInput').addEventListener('input', function () {
+            const filterValue = this.value.toLowerCase();
+            const rows = document.querySelectorAll('#userTableBody tr');
+            rows.forEach(row => {
+                const name = row.cells[1].textContent.toLowerCase();
+                row.style.display = name.includes(filterValue) ? '' : 'none';
+            });
+        });
+
+        // Block, Unblock, and Delete Actions
+        function handleUserAction(actionUrl, successMessage) {
+            const selectedUsers = Array.from(document.querySelectorAll('.select-user:checked'))
+                .map(cb => cb.getAttribute('data-user-id'));
+            if (selectedUsers.length === 0) {
+                alert('No users selected.');
+                return;
+            }
+
+            // fetch(actionUrl, {
+            //     method: 'POST',
+            //     headers: { 'Content-Type': 'application/json' },
+            //     body: JSON.stringify(selectedUsers)
+            // }).then(response => {
+            //     if (response.ok) {
+            //         alert(successMessage);
+            //         checkUserStatus();
+            //         window.location.reload();
+            //     } else {
+            //         alert('An error occurred while performing the action.');
+            //     }
+            // });
+
+            fetch(actionUrl, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(selectedUsers)
+                }).then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            alert(successMessage);
+                            if (data.redirectToLogin) {
+                                window.location.href = '/Account/Login';
+                            } else {
+                                checkUserStatus();
+                                window.location.reload();
+                            }
+                        } else {
+                            alert('An error occurred while performing the action.');
+                        }
+                    });
+        }
+
+
+        function checkUserStatus() {
+            fetch('/Account/CheckUserStatus')
+                .then(response => {
+                    if (response.redirected) {
+                        window.location.href = '/Account/Login';
+                    }
+                });
+        }
+
+        document.getElementById('blockButton').addEventListener('click', () => handleUserAction('/Home/BlockUsers', 'Users have been blocked.'));
+        document.getElementById('unblockButton').addEventListener('click', () => handleUserAction('/Home/UnblockUsers', 'Users have been unblocked.'));
+        document.getElementById('deleteButton').addEventListener('click', () => handleUserAction('/Home/DeleteUsers', 'Users have been deleted.'));
+    </script>
+}
