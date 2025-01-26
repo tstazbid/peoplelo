@@ -3,80 +3,20 @@
   "WorkspaceRootPath": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\account\\verifyemail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\viewmodels\\verifyemailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\viewmodels\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\data\\userdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,115 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Program.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\Program.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Program.cs",
-              "RelativeToolTip": "Peoplelo\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCcAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:42:00.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\_ViewStart.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:57.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\_ViewImports.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:55.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:48.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VerifyEmail.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\VerifyEmail.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\Account\\VerifyEmail.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\VerifyEmail.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\Account\\VerifyEmail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:38.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\Account\\Register.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAwwEwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:33.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\Account\\Login.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:28.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ChangePassword.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\Account\\ChangePassword.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Account\\ChangePassword.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\Account\\ChangePassword.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAwwEQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:41:22.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\appsettings.json",
               "RelativeDocumentMoniker": "Peoplelo\\appsettings.json",
@@ -202,141 +42,46 @@
               "RelativeToolTip": "Peoplelo\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-26T11:17:25.041Z",
+              "WhenOpened": "2025-01-26T15:24:27.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "VerifyEmailViewModel.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\VerifyEmailViewModel.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\ViewModels\\VerifyEmailViewModel.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\VerifyEmailViewModel.cs",
-              "RelativeToolTip": "Peoplelo\\ViewModels\\VerifyEmailViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:41:15.594Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RegisterVIewModel.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\RegisterVIewModel.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\ViewModels\\RegisterVIewModel.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\RegisterVIewModel.cs",
-              "RelativeToolTip": "Peoplelo\\ViewModels\\RegisterVIewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:41:08.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Peoplelo\\Views\\Home\\Index.cshtml",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Peoplelo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAwwLMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:06:31.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "Peoplelo\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:41:03.683Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ChangePasswordViewModel.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\ChangePasswordViewModel.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\ViewModels\\ChangePasswordViewModel.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\ViewModels\\ChangePasswordViewModel.cs",
-              "RelativeToolTip": "Peoplelo\\ViewModels\\ChangePasswordViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:40:58.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Users.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\Models\\Users.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Models\\Users.cs",
-              "RelativeToolTip": "Peoplelo\\Models\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:40:49.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\Models\\ErrorViewModel.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Peoplelo\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:40:44.059Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserDbContext.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Data\\UserDbContext.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\Data\\UserDbContext.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Data\\UserDbContext.cs",
-              "RelativeToolTip": "Peoplelo\\Data\\UserDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:40:36.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Peoplelo\\Controllers\\HomeController.cs",
               "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Peoplelo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAswHcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:40:29.227Z",
+              "WhenOpened": "2025-01-26T15:14:40.386Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Peoplelo\\Controllers\\AccountController.cs",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Peoplelo\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAowNAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Peoplelo\\Views\\Home\\Index.cshtml",
+              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Peoplelo\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAKYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-26T15:13:24.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Program.cs",
+              "RelativeDocumentMoniker": "Peoplelo\\Program.cs",
+              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Program.cs",
+              "RelativeToolTip": "Peoplelo\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-26T12:40:14.938Z",
+              "WhenOpened": "2025-01-26T13:13:25.014Z",
               "EditorCaption": ""
             }
           ]

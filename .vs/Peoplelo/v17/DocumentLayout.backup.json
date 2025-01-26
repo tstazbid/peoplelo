@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|solutionrelative:peoplelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F4B5035-939E-4B98-AFAD-7907994ED76E}|Peoplelo\\Peoplelo.csproj|g:\\internship\\tasks\\task 04\\peoplelomvc\\peoplelo\\peoplelo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Peoplelo\\Controllers\\HomeController.cs",
+              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Peoplelo\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv1sAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T15:14:40.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Peoplelo\\Views\\Home\\Index.cshtml",
               "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Peoplelo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJkAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-26T12:06:31.306Z",
+              "WhenOpened": "2025-01-26T15:13:24.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\appsettings.json",
-              "RelativeDocumentMoniker": "Peoplelo\\appsettings.json",
-              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\appsettings.json",
-              "RelativeToolTip": "Peoplelo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-26T11:17:25.041Z",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Program.cs",
+              "RelativeDocumentMoniker": "Peoplelo\\Program.cs",
+              "ToolTip": "G:\\Internship\\Tasks\\Task 04\\PeopleloMVC\\Peoplelo\\Peoplelo\\Program.cs",
+              "RelativeToolTip": "Peoplelo\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAC8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-26T13:13:25.014Z",
               "EditorCaption": ""
             }
           ]

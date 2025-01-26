@@ -59,12 +59,31 @@ namespace Peoplelo.Controllers
         [Authorize]
         public async Task<IActionResult> BlockUsers([FromBody] List<string> userIds)
         {
-            var users = _context.Users.Where(u => userIds.Contains(u.Id));
-            foreach (var user in users)
+            var currentUserId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var usersToBlock = _context.Users.Where(u => userIds.Contains(u.Id)).ToList();
+
+            if (!usersToBlock.Any())
+            {
+                return Json(new { success = false, message = "No valid users found to block." });
+            }
+
+            // check if the current user is being blocked
+            bool isCurrentUserBeingBlocked = usersToBlock.Any(u => u.Id == currentUserId);
+
+            // update the status of the users
+            foreach (var user in usersToBlock)
             {
                 user.Status = "Blocked";
             }
+
             await _context.SaveChangesAsync();
+
+            // if current user is blocked , logout and go to login 
+            if (isCurrentUserBeingBlocked)
+            {
+
+                return Json(new { success = true, redirectToLogin = true });
+            }
             return Json(new { success = true, message = "Users have been blocked." });
         }
 

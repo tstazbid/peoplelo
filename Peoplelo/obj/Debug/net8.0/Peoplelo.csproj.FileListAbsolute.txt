@@ -176,3 +176,4 @@ G:\Internship\Tasks\Task 04\PeopleloMVC\Peoplelo\Peoplelo\obj\Debug\net8.0\refin
 G:\Internship\Tasks\Task 04\PeopleloMVC\Peoplelo\Peoplelo\obj\Debug\net8.0\Peoplelo.pdb
 G:\Internship\Tasks\Task 04\PeopleloMVC\Peoplelo\Peoplelo\obj\Debug\net8.0\Peoplelo.genruntimeconfig.cache
 G:\Internship\Tasks\Task 04\PeopleloMVC\Peoplelo\Peoplelo\obj\Debug\net8.0\ref\Peoplelo.dll
+G:\Internship\Tasks\Task 04\PeopleloMVC\Peoplelo\Peoplelo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
